@@ -4,7 +4,6 @@ python:
     - '3.5'
 script:
     - 'coverage run test_rpn.py'
-    - 'make test'
 
 install:
     - 'pip install codecov'
