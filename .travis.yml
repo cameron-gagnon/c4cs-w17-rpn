@@ -1,13 +1,11 @@
-language: python
-
+langugage: python
 python:
-      - 3.5
-
+  - 3.5
 install:
-    - pip install coveralls
-
+  - pip install coveralls
+ # - sudo pip install termcolor
 script:
-    - coverage run -m unittest
-
+  - coverage run -m unittest
 after_success:
-    - coveralls
+  - coveralls
+
