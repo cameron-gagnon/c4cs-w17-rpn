@@ -4,6 +4,6 @@ python:
 install:
     - pip install coveralls
 script:
-    - coverage run -m unittest
+    - py.test test_rpn.py
 after_success:
     - coveralls
